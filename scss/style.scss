@@ -102,4 +102,5 @@
 .main-menu > a:hover {
   text-decoration: underline;
 }
-@import "about.scss";
+@import "section/about";
+@import "section/team";
