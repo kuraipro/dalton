@@ -1,0 +1,51 @@
+.about {
+  background-image: url(/dalton-website/images/rocket.jpg);
+  background-size: cover;
+  padding: 80px 0;
+  background-position: center;
+  & > .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--color-white);
+    font-size: 30px;
+    font-family: "Header";
+    margin-bottom: 100px;
+    p {
+      font-size: 20px;
+    }
+  }
+  & .controls {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    & > div {
+      width: 260px;
+      display: flex;
+      flex-direction: column;
+      & > p {
+        color: #ffffff;
+        text-align: center;
+      }
+    }
+  }
+  .button {
+    background-color: #f1b459;
+    border: none;
+    color: #ffffff;
+    padding: 13px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    &:hover {
+      background-color: #eba439;
+    }
+    &:active {
+      background-color: #e48c07;
+    }
+  }
+}
