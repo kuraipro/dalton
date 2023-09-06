@@ -9,32 +9,38 @@
     align-items: center;
 
     color: var(--color-white);
-    font-size: 30px;
+    font-size: 35px;
     font-family: "Header";
-    margin-bottom: 100px;
+    font-weight: bolder;
+    padding-top: 30px;
+    margin-bottom: 130px;
     p {
       font-size: 20px;
+      font-weight: bolder;
     }
   }
   & .controls {
     display: flex;
     justify-content: center;
-    gap: 120px;
+    gap: 160px;
     & > div {
-      width: 260px;
+      width: 310px;
       display: flex;
       flex-direction: column;
       & > p {
         color: #ffffff;
         text-align: center;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        font-size: 25px;
       }
     }
   }
   .button {
-    background-color: #f1b459;
+    background-color: $orange;
     border: none;
     color: #ffffff;
-    padding: 13px 50px;
+    padding: 20px 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;

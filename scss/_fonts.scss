@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Metrophobic";
+  src: url("../fonts/Metrophobic.otf");
+}
+@font-face {
+  font-family: "Header";
+  src: url("../fonts/header.otf");
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: var(--h2-size);
+  letter-spacing: 2px;
+}
