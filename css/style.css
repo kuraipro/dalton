@@ -261,4 +261,14 @@ h2 {
 }
 .team .team-list .team-card .social-links img {
   height: 14px;
+}
+
+.quote {
+  background-color: #282828;
+  color: white;
+  font-size: 23px;
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
