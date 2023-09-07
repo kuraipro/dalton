@@ -268,7 +268,90 @@ h2 {
   color: white;
   font-size: 23px;
   padding: 60px 0;
+  margin-bottom: 75px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.features p {
+  text-align: center;
+  padding-bottom: 70px;
+  color: var(--color-text);
+}
+.features h2 {
+  padding-bottom: 9px;
+}
+.features .feat-block {
+  display: flex;
+  justify-content: flex-start;
+}
+.features .firstblock {
+  padding: 0 130px;
+  border: 1px solid gray;
+}
+.features .second-block {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  padding: 0 130px;
+  justify-content: center;
+  gap: 50px;
+}
+.features .second-block img {
+  height: 50px;
+}
+.features .second-block h3 {
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 10px;
+}
+.features .second-block p {
+  text-align: left;
+  color: var(--color-text);
+  font-size: 13px;
+  padding: 0;
+}
+.features .third-block {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  padding: 0 130px;
+  justify-content: center;
+  gap: 50px;
+}
+.features .third-block img {
+  height: 50px;
+}
+.features .third-block h3 {
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 10px;
+}
+.features .third-block p {
+  text-align: left;
+  color: var(--color-text);
+  font-size: 13px;
+  padding: 0;
+}
+.features .air {
+  display: flex;
+  justify-content: flex-start;
+}
+.features .cup {
+  display: flex;
+  justify-content: flex-start;
+}
+.features .tools {
+  display: flex;
+  justify-content: flex-start;
+}
+.features .equa {
+  display: flex;
+  justify-content: flex-start;
+}
+.features .line {
+  border-top: 1px solid var(--color-text);
+  width: 180px;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
