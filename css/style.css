@@ -274,6 +274,9 @@ h2 {
   justify-content: center;
 }
 
+.features {
+  margin-bottom: 45px;
+}
 .features p {
   text-align: center;
   padding-bottom: 70px;
@@ -354,4 +357,51 @@ h2 {
   border-top: 1px solid var(--color-text);
   width: 180px;
   margin: 0 auto;
+}
+
+.clients h2 {
+  padding-bottom: 10px;
+}
+.clients .client-head {
+  padding-bottom: 21px;
+}
+.clients .client-head p {
+  text-align: center;
+  color: var(--color-text);
+  text-transform: uppercase;
+}
+.clients .client-head p:last-child {
+  font-size: 20px;
+  padding: 0 450px;
+  text-transform: none;
+  color: #676666;
+}
+.clients .line {
+  border-top: 2px solid var(--color-orange);
+  width: 50px;
+  margin: 25px auto;
+}
+.clients .slide {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 170px;
+}
+.clients .slide-button {
+  width: 45px;
+  height: 45px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid gray;
+  vertical-align: center;
+}
+.clients .slide-button:hover {
+  background-color: #ece8e8;
+}
+.clients .slide-button:active {
+  background-color: #cbc8c8;
+}
+.clients .job {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 13px;
 }/*# sourceMappingURL=style.css.map */
